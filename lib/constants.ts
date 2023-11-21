@@ -17,10 +17,10 @@ Make sure not to mention your role as an AI or the character you are portraying.
 Keep your responses concise, no longer than ${MAX_WORD_SUGGESTION} words per response. 
 Engage in a lively and positive conversation with the user.`;
 
-export const DEFAULT_VOICE = "en-US-Neural2-H";
+export const DEFAULT_VOICE = "fable";
 // export const DEFAULT_VOICE = "nova";
 
-export const DEFAULT_MODEL: Model = "vroid_girl1";
+export const DEFAULT_MODEL: Model = "vest_dude";
 
 export const defaultCameraConfig: CameraConfig = {
   alpha: Math.PI / 2,
