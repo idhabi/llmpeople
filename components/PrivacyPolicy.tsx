@@ -30,19 +30,8 @@ export const PrivacyPolicy: React.FC<PrivacyPolicyProps> = ({
     <PrivacyPolicyContainer>
       <PrivacyPolicyContent>
         <PrivacyPolicyText>
-          This website uses the OpenAI API. They collect data. Be sure to read and accept the{" "}
-          <PrivacyPolicyLink
-            href="#"
-            onClick={() => mainStateDispatch({ type: "TOGGLE_ABOUT_MODAL" })}
-          >
-            data processing policy.
-          </PrivacyPolicyLink>
-        </PrivacyPolicyText>
-        <PrivacyPolicyButton
-          onClick={() => mainStateDispatch({ type: "SET_ACCEPTED_PRIVACY_POLICY", payload: true })}
-        >
-          I Accept
-        </PrivacyPolicyButton>
+          This is the world's first talking GPT and it was built lovingly in the UAE. Call 050 6986164 if you wish to invest in this historic project from the UAE.  
+        </PrivacyPolicyText>   
       </PrivacyPolicyContent>
     </PrivacyPolicyContainer>
   );
