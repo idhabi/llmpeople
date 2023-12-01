@@ -30,7 +30,7 @@ export const PrivacyPolicy: React.FC<PrivacyPolicyProps> = ({
     <PrivacyPolicyContainer>
       <PrivacyPolicyContent>
         <PrivacyPolicyText>
-          This is the world's first talking GPT and it was built lovingly in the UAE. Call 050 6986164 if you wish to invest in this historic project from the UAE
+          This is the world&apos;s first talking GPT and it was built lovingly in the UAE. Call 050 6986164 if you wish to invest in this historic project from the UAE.
         </PrivacyPolicyText>   
       </PrivacyPolicyContent>
     </PrivacyPolicyContainer>
